@@ -13,8 +13,37 @@ def signup(request):
 def post(request):
     return render(request, 'post.html')
 
+<<<<<<< Updated upstream
 def normal_view_page(request):
     return render(request,'normal_view_page.html')
 
 def plogging_view_page(request):
     return render(request, 'plogging_view_page.html')
+=======
+
+def mypage(request):
+    return render(request, 'mypage.html')
+
+
+def each(request):
+    return render(request, 'eachView.html')
+
+def others(request):
+    return render(request,'others.html')
+
+def plogging(request):
+    return render(request, 'plogging.html')
+
+def container(request):
+    return render(request, 'container.html')
+
+def GoGo(request):
+    return render(request, 'GoGo.html')
+
+def vegetarian(request):
+    return render(request, 'vegetarian.html')
+
+def container(request):
+    return render(request, 'container.html')
+
+>>>>>>> Stashed changes

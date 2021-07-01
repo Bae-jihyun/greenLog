@@ -1,0 +1,52 @@
+@media (min-width: 640px){
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        grid-auto-flow: row dense;
+      }
+    }
+    
+    .photo{
+        width: 100%;
+        height: 350px;
+    }
+    
+    .container {
+        width: 60%;
+        margin: auto;
+        margin-top: 100px;
+        overflow: hidden;
+      }
+
+    .form1{
+        text-align-last:center; 
+        text-align: center;
+        margin-top: 100px;
+       
+    }
+    .h_area1{
+      font-size: 15px;
+      margin-right: 15px;
+      width: 120px;
+      height: 30px;
+    }
+
+    .h_area2{
+      font-size: 15px;
+      width: 150px;
+      height: 30px;
+    }
+
+    .btn{
+     border-radius: 8px;
+      background-color: rgb(174, 216, 123);
+      font-size: 15px;
+      color: black;
+      width: 100px;
+      text-align: center;
+      border:none;
+      margin-left: 20px;
+      height: 30px;
+    }
+   
