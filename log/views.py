@@ -38,4 +38,4 @@ def vegetarian(request):
 def container(request):
     return render(request, 'container.html')
 
->>>>>>> Stashed changes
+
