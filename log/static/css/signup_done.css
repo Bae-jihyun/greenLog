@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  }
+
+  .body {
+    background-color: white;
+  }
+
+  .comment{
+    position:absolute;
+	width:500px;
+	height:300px;
+	padding: 30px, 20px;
+	background-color:#EDECED;
+	text-align:center;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	border-radius: 15px;
+  }
+
+  .btn{
+    background-color: rgb(174, 216, 123);
+    color: black;
+    width: 30%;
+    height: 15%;
+    margin-top: 20%;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    border:none;
+
+  }
+
+  .message{
+      margin-top: 15%;
+  }
