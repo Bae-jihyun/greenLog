@@ -27,9 +27,6 @@
           <div class="menu"><a href="{% url 'others' %}">기타</a></div>
         </div>
         <div class="login_out">
-<<<<<<< Updated upstream
-          <div class="menu"><a href="{% url 'login' %}">로그인/가입</a></div>
-=======
           <div class="menu">
             {% if request.session.user %}
             <a href="{% url 'mypage' %}">{{ request.session.user }}님</a> &nbsp;
@@ -38,7 +35,6 @@
             <a class="login_text" href="{% url 'login' %}">로그인/가입</a>
             {% endif %}
           </div>
->>>>>>> Stashed changes
         </div>
       </div>
 
