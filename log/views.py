@@ -68,8 +68,10 @@ def signup(request):
                 return render(request, 'signup_done.html', {'message': '회원가입을 완료하였습니다.'})
     return render(request, 'signup.html')
 
+
 def post(request):
     return render(request, 'post.html')
+
 
 
 def mypage(request):
