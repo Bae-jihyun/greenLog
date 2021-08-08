@@ -41,17 +41,13 @@
         <div class="right">
           <div class="auth-each-header each-header">
             <img class="image" src="{{Writer.profile.url}}" />
-            <span style="display: block; margin-top: 9px"
-              >{{Writer.nickname}}</span
-            >
+            <span>{{Writer.nickname}}</span>
           </div>
           <hr />
           <div class="elements">
             <div class="each-header">
-              <img class="image" src="{{Writer.profile.url}}" alt="" />
-              <span style="display: block; margin-top: 9px"
-                >{{Writer.nickname}}</span
-              >
+              <img class="image" src="{{Writer.profile.url}}" />
+              <span>{{Writer.nickname}}</span>
             </div>
             <div class="content">
               <p class="title">{{MyPost.title}}</p>
@@ -70,15 +66,9 @@
               >
                 <div class="button-inner">
                   {%if "true" in like%}
-                  <img
-                    src="../static/images/fullHeart.png"
-                    style="width: 100%; height: 100%"
-                  />
+                  <img src="../static/images/fullHeart.png" />
                   {%else%}
-                  <img
-                    src="../static/images/heart.png"
-                    style="width: 100%; height: 100%"
-                  />
+                  <img src="../static/images/heart.png" />
                   {%endif%}
                 </div>
               </button>

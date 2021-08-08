@@ -32,6 +32,11 @@
   width: 180px;
 }
 
+.photo > p {
+  font-size: 13px;
+  margin-top: 3px;
+}
+
 .submit {
   margin: 10px;
 }
